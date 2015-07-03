@@ -1,7 +1,7 @@
 # This is a placeholder class.
-class boot2docker {
-package { 'boot2docker':
-provider => 'pkgdmg',
-source   => 'https://github.com/boot2docker/osx-installer/releases/download/v1.7.0/Boot2Docker-1.7.0.pkg'
+class sqldeveloper {
+package { 'sqldeveloper':
+provider => 'compressed_app',
+source   => 'http://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-4.1.1.19.59-macosx.app.zip'
 }
 }
